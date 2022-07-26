@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="app/assets/stylesheets/publicposts.scss">
+  <title>j_sapo</title>
+</head>
+<body>
+  <%# navber section %>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+      <h2 class="text-white pt-2">J.LEAGUEサポーターズ</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">User Name</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <button class="btn btn-primary ms-2">LOG IN</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <%# hero section %>
+  <div class="hero vh-100 d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center" >
+          <h1 class="display-4 text-white">J.LEAGUE MAIN CHAT</h1>
+            <P class="text-white my-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab recusandae doloribus consequatur fugiat dolorum unde?p
+            </P>
+            <a href="#" class="btn btn-primary me-2">Go Page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <%# progects section %>
+  <section id="projects">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">J1 LEAGUE</h6>
+          <h1>Supporters Chat Room</h1>
+          <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, corporis tempora facilis autem molestias rem.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '横浜.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">横浜Fマリノス</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '鹿島.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">鹿島アントラーズ</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '川崎.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">川崎フロンターレ</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '柏.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">柏レイソル</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag 'セレッソ.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">セレッソ大阪</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '広島.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">サンフレッチェ広島</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag 'FC東京.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">FC東京</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '浦和.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">浦和レッズ</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '鳥栖.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">サガン鳥栖</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '福岡.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">アビスパ福岡</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '京都.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">京都サンガFC</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '湘南.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">湘南ベルマーレ</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '名古屋.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">名古屋グランパス</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '札幌.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">コンサドーレ札幌</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '神戸.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">ヴィッセル神戸</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '大阪.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">ガンバ大阪</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '清水.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">清水エスパルス</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="project">
+            <%= image_tag '磐田.jpeg' %>
+            <div class="overlay">
+              <div>
+                <h6 class="text-white">ジュビロ磐田</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <%# features section %>
+  <section id="features" class="row w-100 bg-light py-0">
+    <div class="col-lg-6 col-img">
+    </div>
+    <div class="col-lg-6">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-10 pt-4 offset-md-1">
+          <h6 class="text-primary">Why to choose us</h6>
+          <h1>W杯　日本代表スケジュール</h1>
+          <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa adipisci vel eius iste assumenda aliquam.
+          </p>
+
+          <div class="features d-flex mt-5">
+            <div class="iconbox me-3">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <div>
+              <h5>第１試合　日本　ー　ドイツ</h5>
+              <P>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aliquam commodi tempora quis minus perspiciatis.
+              </P>
+            </div>
+          </div>
+          <div class="features d-flex mt-5">
+            <div class="iconbox me-3">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <div>
+              <h5>第２試合　日本　ー　スイス</h5>
+              <P>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aliquam commodi tempora quis minus perspiciatis.
+              </P>
+            </div>
+          </div>
+          <div class="features d-flex mt-5">
+            <div class="iconbox me-3">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <div>
+              <h5>第３試合　日本　ー　スペイン</h5>
+              <P>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aliquam commodi tempora quis minus perspiciatis.
+              </P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%# topics section %>
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">topics</h6>
+          <h1>Topics</h1>
+          <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, corporis tempora facilis autem molestias rem.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-message-dots'></i>
+            </div>
+            <h5 class="mt-4 mb-2">News</h5>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto similique dolor, quasi nostrum blanditiis dolorem?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <%# team section %>
+  <section id="team" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">team</h6>
+          <h1>CLUB ACCOUNT</h1>
+          <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, corporis tempora facilis autem molestias rem.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <%= image_tag '横浜.jpeg' %>
+            <h5 class="mb-0 mt-4">マリノス</h5>
+            <P>vissel kobe</P>
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <%= image_tag '鹿島.jpeg' %>
+            <h5 class="mb-0 mt-4">アントラーズ</h5>
+            <P>vissel kobe</P>
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <%= image_tag '川崎.jpeg' %>
+            <h5 class="mb-0 mt-4">フロンターレ</h5>
+            <P>vissel kobe</P>
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <%= image_tag '柏.jpeg' %>
+            <h5 class="mb-0 mt-4">レイソル</h5>
+            <P>vissel kobe</P>
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact -->
+      <section id="contact" class="bg-light">
+        <div class="container">
+          <div class="row mb-4 ">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">Contact</h6>
+              <h1>お問い合わせ</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                itaque illum quo fugit, molestiae vero.
+              </p>
+            </div>
+          </div>
+
+          <form action="" class="row g-3 justify-content-center">
+            <div class="col-md-5">
+              <input type="text" class="form-control" placeholder="Full Name">
+            </div>
+            <div class="col-md-5">
+              <input type="text" class="form-control" placeholder="Enter E-mail">
+            </div>
+            <div class="col-md-10">
+              <input type="text" class="form-control" placeholder="Enter Subject">
+            </div>
+            <div class="col-md-10">
+              <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message"></textarea>
+            </div>
+            <div class="col-md-10 d-grid">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-md-4">
+                <h4 class="text-white">footer</h4>
+            </div>
+            <div class="col-md-2">
+              <h5 class="text-white">Brand</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+              </div>
+              <div class="col-md-2">
+                <h5 class="text-white">More</h5>
+                <ul class="list-unstyled">
+                <li><a href="#">FAQ&'s</a></li>
+                <li><a href="#">Privacy & Policy</a></li>
+                <li><a href="#">Warrantry</a></li>
+                <li><a href="#">Shipment</a></li>
+                </ul>
+            </div>
+              <div class="col-md-4">
+                <h5 class="text-white">Pages</h5>
+                <ul class="list-unstyled">
+                <li>Address: 2715 Ash Dr. San Jose, South Dakota 83475</li>
+                <li>Email: shincode0712@gmail.com</li>
+                <li>Phone: 111-222-333</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
